@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html amp="amp" lang="en">
 <head>
-<meta charset="utf-8">
 <title>Sitemap</title>
-<meta content='width=device-width, initial-scale=1' name='viewport'>
-</head>
 <style>
 tr{border:1px solid#000}
 #table-outer{padding:7px 10px;margin:0 auto;border:1px solid #ddd;background:#eee}
@@ -42,9 +39,11 @@ tr{border:1px solid#000}
 #feed-container li a{font-size:14px}
 }
 </style>
+</head>
 <body>
 <div id="table-outer">
-<p><b>Sitemap</b></p>
+<p><b>Daftar Isi Blog</b></p>
+
 <table><tbody>
 <tr><td><label for="feed-order">Urutkan artikel berdasarkan:</label></td> <td><select id="feed-order"> <option selected="" value="published">Artikel terbaru</option> <option value="updated">Artikel yang terakhir di update</option> </select></td></tr>
 <tr><td><label for="label-sorter">Filter artikel berdasarkan kategori:</label></td> <td><select disabled="" id="label-sorter"> <option selected="">Loading....</option> </select></td></tr>
